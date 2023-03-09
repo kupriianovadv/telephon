@@ -10,6 +10,7 @@ if not path.exists(file_base):
 
 
 def read_records():
+  
     global all_data, last_id
 
     with open(file_base, "r", encoding="utf-8") as f:
@@ -201,7 +202,7 @@ def ipm_bd(name):
 
 
 def exp_imp_menu():
-
+    
     while True:
         print("\nExp/Imp menu:")
         move = input("1. Import\n"
